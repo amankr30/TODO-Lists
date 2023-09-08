@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  background-color: #d6d3d3;
+  width: 70%;
+  margin: 0 auto;
+  min-height: 100vh;
+ 
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+ input,
+button,
+textarea {
+    font: 100 1.1rem sans-serif;
+  
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ button {
+  /* width: 15%; */
+  background-color: #e0a7a7;
+  transition: all 0.5s;
+}
+
+ button:hover {
+  background-color: #e77e7e;
+}
+
+
+textarea {
+  margin: 5px 0;
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    font: 100 1.1rem cursive;
+    padding: 30px;
+    color: rgb(0, 0, 0,0.868);
+    display: flex;
+    align-items: center;
+    margin: 0.6rem auto; 
+}
+
+.task > div{
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.task button{
+    background-color: rgb(50,50,50);
+    color: white;
+   
+}
+
+.dltBtn{
+border-radius: 100%;
+width: 30px;
+height: 30px;
+font-size: 1.6rem;
+background-color: crimson;
+color: wheat;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.5s;
+}
+
+.dltBtn:hover{
+background-color: #080808;
+}
